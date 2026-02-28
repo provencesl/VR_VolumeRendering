@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b960563ad27c5b44a8b442183fc5359, type: 3}
+  m_Name: DensityPrioritySystem
+  m_EditorClassIdentifier: 
+  tissuePriorities:
+  - tissueType: 5
+    priority: 5
+    densityWeightFactor: 1.5
+    suppressLowerPriority: 1
+    opacityBoost: 1.2
+  - tissueType: 4
+    priority: 4
+    densityWeightFactor: 1.3
+    suppressLowerPriority: 1
+    opacityBoost: 1.1
+  - tissueType: 3
+    priority: 3
+    densityWeightFactor: 1
+    suppressLowerPriority: 1
+    opacityBoost: 1
+  - tissueType: 2
+    priority: 2
+    densityWeightFactor: 0.8
+    suppressLowerPriority: 0
+    opacityBoost: 0.9
+  - tissueType: 1
+    priority: 1
+    densityWeightFactor: 0.6
+    suppressLowerPriority: 0
+    opacityBoost: 0.7
+  - tissueType: 0
+    priority: 0
+    densityWeightFactor: 0
+    suppressLowerPriority: 0
+    opacityBoost: 0
+  presetConfigurations:
+  - mode: 0
+    modeName: Pure Bone
+    visibleTissues: 05000000
+    description: Bone only - ideal for fracture detection and orthopedic assessment
+  - mode: 1
+    modeName: Bone + Vessels
+    visibleTissues: 0500000004000000
+    description: Bone and hemorrhage/vessels - for trauma and vascular assessment
+  - mode: 2
+    modeName: Bone + Organs
+    visibleTissues: 0500000003000000
+    description: Bone and soft tissue - for anatomical context and surgical planning
+  - mode: 3
+    modeName: Full Anatomy
+    visibleTissues: 0500000004000000030000000200000001000000
+    description: All tissues - comprehensive anatomical visualization
+  currentPreset: 3
+  densityPriorityStrength: 1

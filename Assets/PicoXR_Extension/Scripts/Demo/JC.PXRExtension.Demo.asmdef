@@ -1,0 +1,19 @@
+{
+    "name": "JC.PXRExtension.Demo",
+    "rootNamespace": "JC.PXRExtension.Demo",
+    "references": [
+        "GUID:6d9d837a18fc0e44ca1e2f985e2ca3a7"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
