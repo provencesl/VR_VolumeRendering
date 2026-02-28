@@ -95,5 +95,9 @@ InitTestScene*.unity*
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
 
+# Large DLL files (exceed GitHub 100MB limit)
+Assets/3rdPlugin/UnityVolumeRendering/3rdparty/SimpleITK/*.dll
+Assets/3rdPlugin/UnityVolumeRendering/3rdparty/SimpleITK/*.dll.meta
+
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
